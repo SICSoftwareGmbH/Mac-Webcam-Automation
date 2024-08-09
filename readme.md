@@ -20,7 +20,7 @@ I use this to switch the color of my background Govee LEDs to a white when the w
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/mac-webcam-automation.git
+    git clone https://github.com/SICSoftwareGmbH/Mac-Webcam-Automation.git
     cd Mac-Webcam-Automation
     ```
 
