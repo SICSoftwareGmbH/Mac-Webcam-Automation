@@ -21,7 +21,7 @@ I use this to switch the color of my background Govee LEDs to a white when the w
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/yourusername/mac-webcam-automation.git
-    cd mac-webcam-automation
+    cd Mac-Webcam-Automation
     ```
 
 2. **Adjust paths**:
@@ -30,8 +30,8 @@ I use this to switch the color of my background Govee LEDs to a white when the w
 3. **Install the launch daemon**:
     Copy the plist file to the users `LaunchAgents` directory and load it.
     ```bash
-    sudo cp com.user.webcammonitor.plist ~/Library/LaunchAgents
-    sudo launchctl load ~/Library/LaunchAgents/com.user.webcammonitor.plist
+    cp com.user.webcammonitor.plist ~/Library/LaunchAgents
+    launchctl load ~/Library/LaunchAgents/com.user.webcammonitor.plist
     ```
 
 ### Configuration
